@@ -66,7 +66,7 @@ function calc () {
         if (btn_one[k].style.backgroundColor == green) {
             for (let i = 0; i <= 2; i++) {
                 if (btn_two[i].style.backgroundColor == green && number.value != '') {
-                    answ.innerHTML = (((btn_one[k].value * btn_two[i].value * +number.value) / 100) * 1).toFixed(2);
+                    answ.innerHTML = (((btn_one[k].value * btn_two[i].value * +number.value) / 100) * 1.15).toFixed(2);
                 }
             }
         }
