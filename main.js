@@ -2,12 +2,12 @@
 
 // Variables
 const btn_one = document.querySelectorAll('.btn_one');
-btn_one[0].value = 0.75;
-btn_one[1].value = 1.04;
+btn_one[0].value = 0.96;
+btn_one[1].value = 1.23;
 btn_one[2].value = 0.86;
-btn_one[3].value = 1.58;
-btn_one[4].value = 3.48;
-btn_one[5].value = 2.06;
+btn_one[3].value = 1.57;
+btn_one[4].value = 3.99;
+btn_one[5].value = 2.16;
 const btn_two = document.querySelectorAll('.btn_two');
 btn_two[0].value = 0.2;
 btn_two[1].value = 1;
